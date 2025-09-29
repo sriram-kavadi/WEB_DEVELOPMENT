@@ -1,0 +1,39 @@
+.outer{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid rgb(118, 195, 118);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ou{
+    height: 50px;
+    width: 900px;
+    margin:0 auto;
+    background-color: pink;
+    border: 2px solid rgb(118, 195, 118);
+    border-radius: 10px;
+    display: flex;
+}
+.in{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

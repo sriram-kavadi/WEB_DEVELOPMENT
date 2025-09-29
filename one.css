@@ -1,0 +1,21 @@
+.main-row {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 0.75rem;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  width: 100%;
+  padding: 10px;
+}
+
+.main-row > div {
+  min-width: 200px;
+  height: 150px;
+  background: steelblue;
+  flex-shrink: 0;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  border-radius: 8px;
+}

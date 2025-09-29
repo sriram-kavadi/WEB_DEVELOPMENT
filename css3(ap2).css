@@ -1,0 +1,20 @@
+#box{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+.boxes{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.lis{
+    display: inline-block;
+}

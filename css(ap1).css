@@ -1,0 +1,34 @@
+.outter{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    border:2px solid black;
+    border-radius: 50%;
+}
+.eyes1{
+    height: 100px;
+    width:  100px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:120px;
+    left:100px
+}
+.eyes2{
+    height: 100px;
+    width:  100px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top:120px;
+    left:300px
+}
+.mouth{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top:300px;
+    left:100px;
+    border-radius: 0 0 50px 50px ;
+}

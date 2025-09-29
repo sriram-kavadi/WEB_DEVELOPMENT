@@ -1,0 +1,27 @@
+<%- include("includes/head.ejs") %>
+<body>
+    <h1>QUARA POSTS</h1>
+    <% if(post.length==0){%>
+        <h3>No Posts :/</h3>
+    <%}else{%>
+        <% for(i of post){ %>
+            <div class="post">
+                <h4 class="user"> @<%= i.username %> </h4>
+                <b class="content"> <%= i.content %> </b>
+                <br>
+                <br>
+                <a href="/posts/<%=i.id%>"><b>See In Detail </b></a>
+                <br>
+                <a href="/posts/<%=i.id%>/edit"><b>Edit</b></a>
+                <br>
+                <form method="POST" action="posts/<%=i.id%>?_method=DELETE">
+                    <button>Delete Post</button>
+                </form>
+            </div>
+        <% } %>
+    <%} %>
+    <br>
+    <br>
+    <a href="/posts/new">Create New Post</a>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quara</title>
+</head>
+<body>
+    <h1>Quara</h1>
+    <% for (key of data) {%>
+        <div>
+            <h4>@<%=key.username%></h4>
+            <p><%=key.content%></p>
+        </div>
+    <%} %>
+</body>
+</html>

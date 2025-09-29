@@ -1,0 +1,15 @@
+h1{
+    color:maroon;
+}
+
+.post{
+    background-color: blanchedalmond;
+}
+.user,h3{
+    font-style: italic;
+}
+a{
+    color:black;
+    height: 100px;
+
+}
