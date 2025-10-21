@@ -1,0 +1,8 @@
+
+#div2{
+    width: 13vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+

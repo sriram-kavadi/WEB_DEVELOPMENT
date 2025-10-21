@@ -100,3 +100,37 @@ let calculator={
 
 calculator.add(1,2)
 
+const sum1=(a,b)=>{
+    console.log(a+b)
+}
+
+const cube=(a)=>{
+    a*a;
+}
+
+console.log("welcome")
+setTimeout(() => {
+    console.log("hello")
+}, 5000);
+console.log("whats up!!")
+
+let id=setInterval(()=>{
+    console.log("hey!!")
+},2000)
+
+
+let pow=(n)=>{
+    return n*n
+}
+
+let call=()=>{
+    let i=1;
+    let id=setInterval(()=>{
+        console.log("hello world");
+        if(i==5){
+            clearInterval(id)
+        }
+        i++;
+    },2000)
+}
+
