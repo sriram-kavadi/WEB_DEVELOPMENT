@@ -33,7 +33,13 @@ function random(){
         blink(randomNum);
     }, 1000);
 }
-
+let stack=[];
+function call(){
+    console.log("calling");
+}
+function hello(){
+    call();
+}
 function check(){
     for(i=0;i<playerNum.length;i++){
         if(playerNum[i]!=simonNum[i]){
