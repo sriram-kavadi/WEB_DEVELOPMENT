@@ -1,0 +1,21 @@
+.div{
+  border:2px solid black;
+  width: 11vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center
+
+}
+
+.smallDiv{
+  background-color:goldenrod;
+  width: 100%;
+}
+
+.box{
+  display: flex;
+}
